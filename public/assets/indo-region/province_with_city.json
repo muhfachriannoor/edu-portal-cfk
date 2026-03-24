@@ -1,0 +1,2810 @@
+[
+    {
+        "provinsi_id": "Aceh",
+        "provinsi_en": "Aceh",
+        "kota": [
+            {
+                "nama_id": "Kota Banda Aceh",
+                "nama_en": "Banda Aceh City",
+                "id": 1
+            },
+            {
+                "nama_id": "Kota Sabang",
+                "nama_en": "Sabang City",
+                "id": 2
+            },
+            {
+                "nama_id": "Kota Lhokseumawe",
+                "nama_en": "Lhokseumawe City",
+                "id": 3
+            },
+            {
+                "nama_id": "Kota Langsa",
+                "nama_en": "Langsa City",
+                "id": 4
+            },
+            {
+                "nama_id": "Kota Subulussalam",
+                "nama_en": "Subulussalam City",
+                "id": 5
+            },
+            {
+                "nama_id": "Kab. Aceh Selatan",
+                "nama_en": "South Aceh Regency",
+                "id": 6
+            },
+            {
+                "nama_id": "Kab. Aceh Tenggara",
+                "nama_en": "Southeast Aceh Regency",
+                "id": 7
+            },
+            {
+                "nama_id": "Kab. Aceh Timur",
+                "nama_en": "East Aceh Regency",
+                "id": 8
+            },
+            {
+                "nama_id": "Kab. Aceh Tengah",
+                "nama_en": "Central Aceh Regency",
+                "id": 9
+            },
+            {
+                "nama_id": "Kab. Aceh Barat",
+                "nama_en": "West Aceh Regency",
+                "id": 10
+            },
+            {
+                "nama_id": "Kab. Aceh Besar",
+                "nama_en": "Aceh Besar Regency",
+                "id": 11
+            },
+            {
+                "nama_id": "Kab. Pidie",
+                "nama_en": "Pidie Regency",
+                "id": 12
+            },
+            {
+                "nama_id": "Kab. Aceh Utara",
+                "nama_en": "North Aceh Regency",
+                "id": 13
+            },
+            {
+                "nama_id": "Kab. Simeulue",
+                "nama_en": "Simeulue Regency",
+                "id": 14
+            },
+            {
+                "nama_id": "Kab. Aceh Singkil",
+                "nama_en": "Aceh Singkil Regency",
+                "id": 15
+            },
+            {
+                "nama_id": "Kab. Bireun",
+                "nama_en": "Bireuen Regency",
+                "id": 16
+            },
+            {
+                "nama_id": "Kab. Aceh Barat Daya",
+                "nama_en": "Southwest Aceh Regency",
+                "id": 17
+            },
+            {
+                "nama_id": "Kab. Gayo Lues",
+                "nama_en": "Gayo Lues Regency",
+                "id": 18
+            },
+            {
+                "nama_id": "Kab. Aceh Jaya",
+                "nama_en": "Aceh Jaya Regency",
+                "id": 19
+            },
+            {
+                "nama_id": "Kab. Nagan Raya",
+                "nama_en": "Nagan Raya Regency",
+                "id": 20
+            },
+            {
+                "nama_id": "Kab. Aceh Tamiang",
+                "nama_en": "Aceh Tamiang Regency",
+                "id": 21
+            },
+            {
+                "nama_id": "Kab. Bener Meriah",
+                "nama_en": "Bener Meriah Regency",
+                "id": 22
+            },
+            {
+                "nama_id": "Kab. Pidie Jaya",
+                "nama_en": "Pidie Jaya Regency",
+                "id": 23
+            }
+        ],
+        "id": 1
+    },
+    {
+        "provinsi_id": "Sumatera Utara",
+        "provinsi_en": "North Sumatra",
+        "kota": [
+            {
+                "nama_id": "Kota Medan",
+                "nama_en": "Medan City",
+                "id": 1
+            },
+            {
+                "nama_id": "Kota Pematang Siantar",
+                "nama_en": "Pematang Siantar City",
+                "id": 2
+            },
+            {
+                "nama_id": "Kota Sibolga",
+                "nama_en": "Sibolga City",
+                "id": 3
+            },
+            {
+                "nama_id": "Kota Tanjung Balai",
+                "nama_en": "Tanjung Balai City",
+                "id": 4
+            },
+            {
+                "nama_id": "Kota Binjai",
+                "nama_en": "Binjai City",
+                "id": 5
+            },
+            {
+                "nama_id": "Kota Tebing Tinggi",
+                "nama_en": "Tebing Tinggi City",
+                "id": 6
+            },
+            {
+                "nama_id": "Kota Padang Sidempuan",
+                "nama_en": "Padang Sidempuan City",
+                "id": 7
+            },
+            {
+                "nama_id": "Kota Gunung Sitoli",
+                "nama_en": "Gunung Sitoli City",
+                "id": 8
+            },
+            {
+                "nama_id": "Kab. Serdang Bedagai",
+                "nama_en": "Serdang Bedagai Regency",
+                "id": 9
+            },
+            {
+                "nama_id": "Kab. Samosir ",
+                "nama_en": "Samosir Regency",
+                "id": 10
+            },
+            {
+                "nama_id": "Kab. Humbang Hasundutan",
+                "nama_en": "Humbang Hasundutan Regency",
+                "id": 11
+            },
+            {
+                "nama_id": "Kab. Pakpak Bharat",
+                "nama_en": "Pakpak Bharat Regency",
+                "id": 12
+            },
+            {
+                "nama_id": "Kab. Nias Selatan",
+                "nama_en": "South Nias Regency",
+                "id": 13
+            },
+            {
+                "nama_id": "Kab. Mandailing Natal",
+                "nama_en": "Mandailing Natal Regency",
+                "id": 14
+            },
+            {
+                "nama_id": "Kab. Toba Samosir",
+                "nama_en": "Toba Samosir Regency",
+                "id": 15
+            },
+            {
+                "nama_id": "Kab. Dairi",
+                "nama_en": "Dairi Regency",
+                "id": 16
+            },
+            {
+                "nama_id": "Kab. Labuhan Batu",
+                "nama_en": "Labuhan Batu Regency",
+                "id": 17
+            },
+            {
+                "nama_id": "Kab. Asahan",
+                "nama_en": "Asahan Regency",
+                "id": 18
+            },
+            {
+                "nama_id": "Kab. Simalungun",
+                "nama_en": "Simalungun Regency",
+                "id": 19
+            },
+            {
+                "nama_id": "Kab. Deli Serdang",
+                "nama_en": "Deli Serdang Regency",
+                "id": 20
+            },
+            {
+                "nama_id": "Kab. Karo",
+                "nama_en": "Karo Regency",
+                "id": 21
+            },
+            {
+                "nama_id": "Kab. Langkat",
+                "nama_en": "Langkat Regency",
+                "id": 22
+            },
+            {
+                "nama_id": "Kab. Nias",
+                "nama_en": "Nias Regency",
+                "id": 23
+            },
+            {
+                "nama_id": "Kab. Tapanuli Selatan",
+                "nama_en": "South Tapanuli Regency",
+                "id": 24
+            },
+            {
+                "nama_id": "Kab. Tapanuli Utara",
+                "nama_en": "North Tapanuli Regency",
+                "id": 25
+            },
+            {
+                "nama_id": "Kab. Tapanuli Tengah",
+                "nama_en": "Central Tapanuli Regency",
+                "id": 26
+            },
+            {
+                "nama_id": "Kab. Batu Bara",
+                "nama_en": "Batu Bara Regency",
+                "id": 27
+            },
+            {
+                "nama_id": "Kab. Padang Lawas Utara",
+                "nama_en": "North Padang Lawas Regency",
+                "id": 28
+            },
+            {
+                "nama_id": "Kab. Padang Lawas",
+                "nama_en": "Padang Lawas Regency",
+                "id": 29
+            },
+            {
+                "nama_id": "Kab. Labuhanbatu Selatan",
+                "nama_en": "South Labuhanbatu Regency",
+                "id": 30
+            },
+            {
+                "nama_id": "Kab. Labuhanbatu Utara",
+                "nama_en": "North Labuhanbatu Regency",
+                "id": 31
+            },
+            {
+                "nama_id": "Kab. Nias Utara",
+                "nama_en": "North Nias Regency",
+                "id": 32
+            },
+            {
+                "nama_id": "Kab. Nias Barat",
+                "nama_en": "West Nias Regency",
+                "id": 33
+            }
+        ],
+        "id": 2
+    },
+    {
+        "provinsi_id": "Sumatera Barat",
+        "provinsi_en": "West Sumatra",
+        "kota": [
+            {
+                "nama_id": "Kota Padang",
+                "nama_en": "Padang City",
+                "id": 1
+            },
+            {
+                "nama_id": "Kota Solok",
+                "nama_en": "Solok City",
+                "id": 2
+            },
+            {
+                "nama_id": "Kota Sawhlunto",
+                "nama_en": "Sawahlunto City",
+                "id": 3
+            },
+            {
+                "nama_id": "Kota Padang Panjang",
+                "nama_en": "Padang Panjang City",
+                "id": 4
+            },
+            {
+                "nama_id": "Kota Bukittinggi",
+                "nama_en": "Bukittinggi City",
+                "id": 5
+            },
+            {
+                "nama_id": "Kota Payakumbuh",
+                "nama_en": "Payakumbuh City",
+                "id": 6
+            },
+            {
+                "nama_id": "Kota Pariaman",
+                "nama_en": "Pariaman City",
+                "id": 7
+            },
+            {
+                "nama_id": "Kab. Pasaman Barat",
+                "nama_en": "West Pasaman Regency",
+                "id": 8
+            },
+            {
+                "nama_id": "Kab. Solok Selatan",
+                "nama_en": "South Solok Regency",
+                "id": 9
+            },
+            {
+                "nama_id": "Kab. Dharmasraya",
+                "nama_en": "Dharmasraya Regency",
+                "id": 10
+            },
+            {
+                "nama_id": "Kab. Kepulauan Mentawai",
+                "nama_en": "Mentawai Islands Regency",
+                "id": 11
+            },
+            {
+                "nama_id": "Kab. Pasaman",
+                "nama_en": "Pasaman Regency",
+                "id": 12
+            },
+            {
+                "nama_id": "Kab. Lima Puluh Kota",
+                "nama_en": "Lima Puluh Kota Regency",
+                "id": 13
+            },
+            {
+                "nama_id": "Kab. Agam",
+                "nama_en": "Agam Regency",
+                "id": 14
+            },
+            {
+                "nama_id": "Kab. Padang Pariaman",
+                "nama_en": "Padang Pariaman Regency",
+                "id": 15
+            },
+            {
+                "nama_id": "Kab. Tanah Datar",
+                "nama_en": "Tanah Datar Regency",
+                "id": 16
+            },
+            {
+                "nama_id": "Kab. Sijunjung",
+                "nama_en": "Sijunjung Regency",
+                "id": 17
+            },
+            {
+                "nama_id": "Kab. Solok",
+                "nama_en": "Solok Regency",
+                "id": 18
+            },
+            {
+                "nama_id": "Kab. Pesisir Selatan",
+                "nama_en": "South Pesisir Regency",
+                "id": 19
+            }
+        ],
+        "id": 3
+    },
+    {
+        "provinsi_id": "Riau",
+        "provinsi_en": "Riau",
+        "kota": [
+            {
+                "nama_id": "Kota Pekan Baru",
+                "nama_en": "Pekanbaru City",
+                "id": 1
+            },
+            {
+                "nama_id": "Kota Dumai",
+                "nama_en": "Dumai City",
+                "id": 2
+            },
+            {
+                "nama_id": "Kab. Kepulauan Meranti",
+                "nama_en": "Meranti Islands Regency",
+                "id": 3
+            },
+            {
+                "nama_id": "Kab. Kuantan Singingi",
+                "nama_en": "Kuantan Singingi Regency",
+                "id": 4
+            },
+            {
+                "nama_id": "Kab. Siak",
+                "nama_en": "Siak Regency",
+                "id": 5
+            },
+            {
+                "nama_id": "Kab. Rokan Hilir",
+                "nama_en": "Rokan Hilir Regency",
+                "id": 6
+            },
+            {
+                "nama_id": "Kab. Rokan Hulu",
+                "nama_en": "Rokan Hulu Regency",
+                "id": 7
+            },
+            {
+                "nama_id": "Kab. Pelalawan",
+                "nama_en": "Pelalawan Regency",
+                "id": 8
+            },
+            {
+                "nama_id": "Kab. Indragiri Hilir",
+                "nama_en": "Indragiri Hilir Regency",
+                "id": 9
+            },
+            {
+                "nama_id": "Kab. Bengkalis",
+                "nama_en": "Bengkalis Regency",
+                "id": 10
+            },
+            {
+                "nama_id": "Kab. Indragiri Hulu",
+                "nama_en": "Indragiri Hulu Regency",
+                "id": 11
+            },
+            {
+                "nama_id": "Kab. Kampar",
+                "nama_en": "Kampar Regency",
+                "id": 12
+            }
+        ],
+        "id": 4
+    },
+    {
+        "provinsi_id": "Jambi",
+        "provinsi_en": "Jambi",
+        "kota": [
+            {
+                "nama_id": "Kota Jambi",
+                "nama_en": "Jambi City",
+                "id": 1
+            },
+            {
+                "nama_id": "Kota Sungai Penuh",
+                "nama_en": "Sungai Penuh City",
+                "id": 2
+            },
+            {
+                "nama_id": "Kab. Tebo",
+                "nama_en": "Tebo Regency",
+                "id": 3
+            },
+            {
+                "nama_id": "Kab. Bungo",
+                "nama_en": "Bungo Regency",
+                "id": 4
+            },
+            {
+                "nama_id": "Kab. Tanjung Jabung Timur",
+                "nama_en": "East Tanjung Jabung Regency",
+                "id": 5
+            },
+            {
+                "nama_id": "Kab. Tanjung Jabung Barat",
+                "nama_en": "West Tanjung Jabung Regency",
+                "id": 6
+            },
+            {
+                "nama_id": "Kab. Muaro Jambi",
+                "nama_en": "Muaro Jambi Regency",
+                "id": 7
+            },
+            {
+                "nama_id": "Kab. Batanghari",
+                "nama_en": "Batanghari Regency",
+                "id": 8
+            },
+            {
+                "nama_id": "Kab. Sarolangun",
+                "nama_en": "Sarolangun Regency",
+                "id": 9
+            },
+            {
+                "nama_id": "Kab. Merangin",
+                "nama_en": "Merangin Regency",
+                "id": 10
+            },
+            {
+                "nama_id": "Kab. Kerinci",
+                "nama_en": "Kerinci Regency",
+                "id": 11
+            }
+        ],
+        "id": 5
+    },
+    {
+        "provinsi_id": "Sumatera Selatan",
+        "provinsi_en": "South Sumatra",
+        "kota": [
+            {
+                "nama_id": "Kota Palembang",
+                "nama_en": "Palembang City",
+                "id": 1
+            },
+            {
+                "nama_id": "Kota Pagar Alam",
+                "nama_en": "Pagar Alam City",
+                "id": 2
+            },
+            {
+                "nama_id": "Kota Lubuk Linggau",
+                "nama_en": "Lubuk Linggau City",
+                "id": 3
+            },
+            {
+                "nama_id": "Kota Prabumulih",
+                "nama_en": "Prabumulih City",
+                "id": 4
+            },
+            {
+                "nama_id": "Kab. Musi Rawas Utara",
+                "nama_en": "North Musi Rawas Regency",
+                "id": 5
+            },
+            {
+                "nama_id": "Kab. Penukal Abab Lematang Ilir",
+                "nama_en": "Penukal Abab Lematang Ilir Regency",
+                "id": 6
+            },
+            {
+                "nama_id": "Kab. Empat Lawang",
+                "nama_en": "Empat Lawang Regency",
+                "id": 7
+            },
+            {
+                "nama_id": "Kab. Ogan Ilir ",
+                "nama_en": "Ogan Ilir Regency",
+                "id": 8
+            },
+            {
+                "nama_id": "Kab. Ogan Komering Ulu Selatan ",
+                "nama_en": "South Ogan Komering Ulu Regency",
+                "id": 9
+            },
+            {
+                "nama_id": "Kab. Ogan Komering Ulu Timur ",
+                "nama_en": "East Ogan Komering Ulu Regency",
+                "id": 10
+            },
+            {
+                "nama_id": "Kab. Banyuasin",
+                "nama_en": "Banyuasin Regency",
+                "id": 11
+            },
+            {
+                "nama_id": "Kab. Musi Banyuasin",
+                "nama_en": "Musi Banyuasin Regency",
+                "id": 12
+            },
+            {
+                "nama_id": "Kab. Musi Rawas",
+                "nama_en": "Musi Rawas Regency",
+                "id": 13
+            },
+            {
+                "nama_id": "Kab. Lahat",
+                "nama_en": "Lahat Regency",
+                "id": 14
+            },
+            {
+                "nama_id": "Kab. Muara Enim",
+                "nama_en": "Muara Enim Regency",
+                "id": 15
+            },
+            {
+                "nama_id": "Kab. Ogan Komering Ilir",
+                "nama_en": "Ogan Komering Ilir Regency",
+                "id": 16
+            },
+            {
+                "nama_id": "Kab. Ogan Komering Ulu",
+                "nama_en": "Ogan Komering Ulu Regency",
+                "id": 17
+            }
+        ],
+        "id": 6
+    },
+    {
+        "provinsi_id": "Bengkulu",
+        "provinsi_en": "Bengkulu",
+        "kota": [
+            {
+                "nama_id": "Kota Bengkulu",
+                "nama_en": "Bengkulu City",
+                "id": 1
+            },
+            {
+                "nama_id": "Kab. Bengkulu Tengah",
+                "nama_en": "Central Bengkulu Regency",
+                "id": 2
+            },
+            {
+                "nama_id": "Kab. Kepahiang ",
+                "nama_en": "Kepahiang Regency",
+                "id": 3
+            },
+            {
+                "nama_id": "Kab. Lebong",
+                "nama_en": "Lebong Regency",
+                "id": 4
+            },
+            {
+                "nama_id": "Kab. Muko Muko",
+                "nama_en": "Muko Muko Regency",
+                "id": 5
+            },
+            {
+                "nama_id": "Kab. Seluma",
+                "nama_en": "Seluma Regency",
+                "id": 6
+            },
+            {
+                "nama_id": "Kab. Kaur",
+                "nama_en": "Kaur Regency",
+                "id": 7
+            },
+            {
+                "nama_id": "Kab. Bengkulu Utara",
+                "nama_en": "North Bengkulu Regency",
+                "id": 8
+            },
+            {
+                "nama_id": "Kab. Rejang Lebong",
+                "nama_en": "Rejang Lebong Regency",
+                "id": 9
+            },
+            {
+                "nama_id": "Kab. Bengkulu Selatan",
+                "nama_en": "South Bengkulu Regency",
+                "id": 10
+            }
+        ],
+        "id": 7
+    },
+    {
+        "provinsi_id": "Lampung",
+        "provinsi_en": "Lampung",
+        "kota": [
+            {
+                "nama_id": "Kota Bandar Lampung",
+                "nama_en": "Bandar Lampung City",
+                "id": 1
+            },
+            {
+                "nama_id": "Kota Metro",
+                "nama_en": "Metro City",
+                "id": 2
+            },
+            {
+                "nama_id": "Kab. Pesisir Barat",
+                "nama_en": "West Pesisir Regency",
+                "id": 3
+            },
+            {
+                "nama_id": "Kab. Tulangbawang Barat",
+                "nama_en": "West Tulangbawang Regency",
+                "id": 4
+            },
+            {
+                "nama_id": "Kab. Mesuji",
+                "nama_en": "Mesuji Regency",
+                "id": 5
+            },
+            {
+                "nama_id": "Kab. Pringsewu",
+                "nama_en": "Pringsewu Regency",
+                "id": 6
+            },
+            {
+                "nama_id": "Kab. Pesawaran",
+                "nama_en": "Pesawaran Regency",
+                "id": 7
+            },
+            {
+                "nama_id": "Kab. Way Kanan",
+                "nama_en": "Way Kanan Regency",
+                "id": 8
+            },
+            {
+                "nama_id": "Kab. Lampung Timur",
+                "nama_en": "East Lampung Regency",
+                "id": 9
+            },
+            {
+                "nama_id": "Kab. Tanggamus",
+                "nama_en": "Tanggamus Regency",
+                "id": 10
+            },
+            {
+                "nama_id": "Kab. Tulang Bawang",
+                "nama_en": "Tulang Bawang Regency",
+                "id": 11
+            },
+            {
+                "nama_id": "Kab. Lampung Barat",
+                "nama_en": "West Lampung Regency",
+                "id": 12
+            },
+            {
+                "nama_id": "Kab. Lampung Utara",
+                "nama_en": "North Lampung Regency",
+                "id": 13
+            },
+            {
+                "nama_id": "Kab. Lampung Tengah",
+                "nama_en": "Central Lampung Regency",
+                "id": 14
+            },
+            {
+                "nama_id": "Kab. Lampung Selatan",
+                "nama_en": "South Lampung Regency",
+                "id": 15
+            }
+        ],
+        "id": 8
+    },
+    {
+        "provinsi_id": "Kepulauan Bangka Belitung",
+        "provinsi_en": "Bangka Belitung Islands",
+        "kota": [
+            {
+                "nama_id": "Kota Pangkal Pinang",
+                "nama_en": "Pangkal Pinang City",
+                "id": 1
+            },
+            {
+                "nama_id": "Kab. Belitung Timur",
+                "nama_en": "East Belitung Regency",
+                "id": 2
+            },
+            {
+                "nama_id": "Kab. Bangka Barat",
+                "nama_en": "West Bangka Regency",
+                "id": 3
+            },
+            {
+                "nama_id": "Kab. Bangka Tengah",
+                "nama_en": "Central Bangka Regency",
+                "id": 4
+            },
+            {
+                "nama_id": "Kab. Bangka Selatan",
+                "nama_en": "South Bangka Regency",
+                "id": 5
+            },
+            {
+                "nama_id": "Kab. Belitung",
+                "nama_en": "Belitung Regency",
+                "id": 6
+            },
+            {
+                "nama_id": "Kab. Bangka",
+                "nama_en": "Bangka Regency",
+                "id": 7
+            }
+        ],
+        "id": 9
+    },
+    {
+        "provinsi_id": "Kepulauan Riau",
+        "provinsi_en": "Riau Islands",
+        "kota": [
+            {
+                "nama_id": "Kota Batam",
+                "nama_en": "Batam City",
+                "id": 1
+            },
+            {
+                "nama_id": "Kota Tanjung Pinang",
+                "nama_en": "Tanjung Pinang City",
+                "id": 2
+            },
+            {
+                "nama_id": "Kab. Kepulauan Anambas",
+                "nama_en": "Anambas Islands Regency",
+                "id": 3
+            },
+            {
+                "nama_id": "Kab. Lingga ",
+                "nama_en": "Lingga Regency",
+                "id": 4
+            },
+            {
+                "nama_id": "Kab. Natuna",
+                "nama_en": "Natuna Regency",
+                "id": 5
+            },
+            {
+                "nama_id": "Kab. Karimun",
+                "nama_en": "Karimun Regency",
+                "id": 6
+            },
+            {
+                "nama_id": "Kab. Bintan",
+                "nama_en": "Bintan Regency",
+                "id": 7
+            }
+        ],
+        "id": 10
+    },
+    {
+        "provinsi_id": "DKI Jakarta",
+        "provinsi_en": "Jakarta Special Capital Region",
+        "kota": [
+            {
+                "nama_id": "Kota Jakarta Timur",
+                "nama_en": "East Jakarta City",
+                "id": 1
+            },
+            {
+                "nama_id": "Kota Jakarta Selatan",
+                "nama_en": "South Jakarta City",
+                "id": 2
+            },
+            {
+                "nama_id": "Kota Jakarta Barat",
+                "nama_en": "West Jakarta City",
+                "id": 3
+            },
+            {
+                "nama_id": "Kota Jakarta Utara",
+                "nama_en": "North Jakarta City",
+                "id": 4
+            },
+            {
+                "nama_id": "Kota Jakarta Pusat",
+                "nama_en": "Central Jakarta City",
+                "id": 5
+            },
+            {
+                "nama_id": "Kab. Kepulauan Seribu",
+                "nama_en": "Seribu Islands Regency",
+                "id": 6
+            }
+        ],
+        "id": 11
+    },
+    {
+        "provinsi_id": "Jawa Barat",
+        "provinsi_en": "West Java",
+        "kota": [
+            {
+                "nama_id": "Kota Bandung",
+                "nama_en": "Bandung City",
+                "id": 1
+            },
+            {
+                "nama_id": "Kota Banjar",
+                "nama_en": "Banjar City",
+                "id": 2
+            },
+            {
+                "nama_id": "Kota Tasikmalaya",
+                "nama_en": "Tasikmalaya City",
+                "id": 3
+            },
+            {
+                "nama_id": "Kota Cimahi",
+                "nama_en": "Cimahi City",
+                "id": 4
+            },
+            {
+                "nama_id": "Kota Depok",
+                "nama_en": "Depok City",
+                "id": 5
+            },
+            {
+                "nama_id": "Kota Bekasi",
+                "nama_en": "Bekasi City",
+                "id": 6
+            },
+            {
+                "nama_id": "Kota Cirebon",
+                "nama_en": "Cirebon City",
+                "id": 7
+            },
+            {
+                "nama_id": "Kota Sukabumi",
+                "nama_en": "Sukabumi City",
+                "id": 8
+            },
+            {
+                "nama_id": "Kota Bogor",
+                "nama_en": "Bogor City",
+                "id": 9
+            },
+            {
+                "nama_id": "Kab. Pangandaran",
+                "nama_en": "Pangandaran Regency",
+                "id": 10
+            },
+            {
+                "nama_id": "Kab. Bandung Barat",
+                "nama_en": "West Bandung Regency",
+                "id": 11
+            },
+            {
+                "nama_id": "Kab. Bekasi",
+                "nama_en": "Bekasi Regency",
+                "id": 12
+            },
+            {
+                "nama_id": "Kab. Karawang",
+                "nama_en": "Karawang Regency",
+                "id": 13
+            },
+            {
+                "nama_id": "Kab. Purwakarta",
+                "nama_en": "Purwakarta Regency",
+                "id": 14
+            },
+            {
+                "nama_id": "Kab. Subang",
+                "nama_en": "Subang Regency",
+                "id": 15
+            },
+            {
+                "nama_id": "Kab. Indramayu",
+                "nama_en": "Indramayu Regency",
+                "id": 16
+            },
+            {
+                "nama_id": "Kab. Sumedang",
+                "nama_en": "Sumedang Regency",
+                "id": 17
+            },
+            {
+                "nama_id": "Kab. Majalengka",
+                "nama_en": "Majalengka Regency",
+                "id": 18
+            },
+            {
+                "nama_id": "Kab. Cirebon",
+                "nama_en": "Cirebon Regency",
+                "id": 19
+            },
+            {
+                "nama_id": "Kab. Kuningan",
+                "nama_en": "Kuningan Regency",
+                "id": 20
+            },
+            {
+                "nama_id": "Kab. Ciamis",
+                "nama_en": "Ciamis Regency",
+                "id": 21
+            },
+            {
+                "nama_id": "Kab. Tasikmalaya",
+                "nama_en": "Tasikmalaya Regency",
+                "id": 22
+            },
+            {
+                "nama_id": "Kab. Garut",
+                "nama_en": "Garut Regency",
+                "id": 23
+            },
+            {
+                "nama_id": "Kab. Bandung",
+                "nama_en": "Bandung Regency",
+                "id": 24
+            },
+            {
+                "nama_id": "Kab. Cianjur",
+                "nama_en": "Cianjur Regency",
+                "id": 25
+            },
+            {
+                "nama_id": "Kab. Sukabumi",
+                "nama_en": "Sukabumi Regency",
+                "id": 26
+            },
+            {
+                "nama_id": "Kab. Bogor",
+                "nama_en": "Bogor Regency",
+                "id": 27
+            }
+        ],
+        "id": 12
+    },
+    {
+        "provinsi_id": "Jawa Tengah",
+        "provinsi_en": "Central Java",
+        "kota": [
+            {
+                "nama_id": "Kota Semarang",
+                "nama_en": "Semarang City",
+                "id": 1
+            },
+            {
+                "nama_id": "Kota Tegal",
+                "nama_en": "Tegal City",
+                "id": 2
+            },
+            {
+                "nama_id": "Kota Pekalongan",
+                "nama_en": "Pekalongan City",
+                "id": 3
+            },
+            {
+                "nama_id": "Kota Salatiga",
+                "nama_en": "Salatiga City",
+                "id": 4
+            },
+            {
+                "nama_id": "Kota Surakarta",
+                "nama_en": "Surakarta City",
+                "id": 5
+            },
+            {
+                "nama_id": "Kota Magelang",
+                "nama_en": "Magelang City",
+                "id": 6
+            },
+            {
+                "nama_id": "Kab. Brebes",
+                "nama_en": "Brebes Regency",
+                "id": 7
+            },
+            {
+                "nama_id": "Kab. Tegal",
+                "nama_en": "Tegal Regency",
+                "id": 8
+            },
+            {
+                "nama_id": "Kab. Pemalang",
+                "nama_en": "Pemalang Regency",
+                "id": 9
+            },
+            {
+                "nama_id": "Kab. Pekalongan",
+                "nama_en": "Pekalongan Regency",
+                "id": 10
+            },
+            {
+                "nama_id": "Kab. Batang",
+                "nama_en": "Batang Regency",
+                "id": 11
+            },
+            {
+                "nama_id": "Kab. Kendal",
+                "nama_en": "Kendal Regency",
+                "id": 12
+            },
+            {
+                "nama_id": "Kab. Temanggung",
+                "nama_en": "Temanggung Regency",
+                "id": 13
+            },
+            {
+                "nama_id": "Kab. Semarang",
+                "nama_en": "Semarang Regency",
+                "id": 14
+            },
+            {
+                "nama_id": "Kab. Demak",
+                "nama_en": "Demak Regency",
+                "id": 15
+            },
+            {
+                "nama_id": "Kab. Jepara",
+                "nama_en": "Jepara Regency",
+                "id": 16
+            },
+            {
+                "nama_id": "Kab. Kudus",
+                "nama_en": "Kudus Regency",
+                "id": 17
+            },
+            {
+                "nama_id": "Kab. Pati",
+                "nama_en": "Pati Regency",
+                "id": 18
+            },
+            {
+                "nama_id": "Kab. Rembang",
+                "nama_en": "Rembang Regency",
+                "id": 19
+            },
+            {
+                "nama_id": "Kab. Blora",
+                "nama_en": "Blora Regency",
+                "id": 20
+            },
+            {
+                "nama_id": "Kab. Grobogan",
+                "nama_en": "Grobogan Regency",
+                "id": 21
+            },
+            {
+                "nama_id": "Kab. Sragen",
+                "nama_en": "Sragen Regency",
+                "id": 22
+            },
+            {
+                "nama_id": "Kab. Karanganyar",
+                "nama_en": "Karanganyar Regency",
+                "id": 23
+            },
+            {
+                "nama_id": "Kab. Wonogiri",
+                "nama_en": "Wonogiri Regency",
+                "id": 24
+            },
+            {
+                "nama_id": "Kab. Sukoharjo",
+                "nama_en": "Sukoharjo Regency",
+                "id": 25
+            },
+            {
+                "nama_id": "Kab. Klaten",
+                "nama_en": "Klaten Regency",
+                "id": 26
+            },
+            {
+                "nama_id": "Kab. Boyolali",
+                "nama_en": "Boyolali Regency",
+                "id": 27
+            },
+            {
+                "nama_id": "Kab. Magelang",
+                "nama_en": "Magelang Regency",
+                "id": 28
+            },
+            {
+                "nama_id": "Kab. Wonosobo",
+                "nama_en": "Wonosobo Regency",
+                "id": 29
+            },
+            {
+                "nama_id": "Kab. Purworejo",
+                "nama_en": "Purworejo Regency",
+                "id": 30
+            },
+            {
+                "nama_id": "Kab. Kebumen",
+                "nama_en": "Kebumen Regency",
+                "id": 31
+            },
+            {
+                "nama_id": "Kab. Banjarnegara",
+                "nama_en": "Banjarnegara Regency",
+                "id": 32
+            },
+            {
+                "nama_id": "Kab. Purbalingga",
+                "nama_en": "Purbalingga Regency",
+                "id": 33
+            },
+            {
+                "nama_id": "Kab. Banyumas",
+                "nama_en": "Banyumas Regency",
+                "id": 34
+            },
+            {
+                "nama_id": "Kab. Cilacap",
+                "nama_en": "Cilacap Regency",
+                "id": 35
+            }
+        ],
+        "id": 13
+    },
+    {
+        "provinsi_id": "DI Yogyakarta",
+        "provinsi_en": "Yogyakarta Special Region",
+        "kota": [
+            {
+                "nama_id": "Kota Yogyakarta",
+                "nama_en": "Yogyakarta City",
+                "id": 1
+            },
+            {
+                "nama_id": "Kab. Sleman",
+                "nama_en": "Sleman Regency",
+                "id": 2
+            },
+            {
+                "nama_id": "Kab. Gunung Kidul",
+                "nama_en": "Gunung Kidul Regency",
+                "id": 3
+            },
+            {
+                "nama_id": "Kab. Bantul",
+                "nama_en": "Bantul Regency",
+                "id": 4
+            },
+            {
+                "nama_id": "Kab. Kulon Progo",
+                "nama_en": "Kulon Progo Regency",
+                "id": 5
+            }
+        ],
+        "id": 14
+    },
+    {
+        "provinsi_id": "Jawa Timur",
+        "provinsi_en": "East Java",
+        "kota": [
+            {
+                "nama_id": "Kota Surabaya",
+                "nama_en": "Surabaya City",
+                "id": 1
+            },
+            {
+                "nama_id": "Kota Batu",
+                "nama_en": "Batu City",
+                "id": 2
+            },
+            {
+                "nama_id": "Kota Madiun",
+                "nama_en": "Madiun City",
+                "id": 3
+            },
+            {
+                "nama_id": "Kota Mojokerto",
+                "nama_en": "Mojokerto City",
+                "id": 4
+            },
+            {
+                "nama_id": "Kota Pasuruan",
+                "nama_en": "Pasuruan City",
+                "id": 5
+            },
+            {
+                "nama_id": "Kota Probolinggo",
+                "nama_en": "Probolinggo City",
+                "id": 6
+            },
+            {
+                "nama_id": "Kota Malang",
+                "nama_en": "Malang City",
+                "id": 7
+            },
+            {
+                "nama_id": "Kota Blitar",
+                "nama_en": "Blitar City",
+                "id": 8
+            },
+            {
+                "nama_id": "Kota Kediri",
+                "nama_en": "Kediri City",
+                "id": 9
+            },
+            {
+                "nama_id": "Kab. Sumenep",
+                "nama_en": "Sumenep Regency",
+                "id": 10
+            },
+            {
+                "nama_id": "Kab. Pamekasan",
+                "nama_en": "Pamekasan Regency",
+                "id": 11
+            },
+            {
+                "nama_id": "Kab. Sampang",
+                "nama_en": "Sampang Regency",
+                "id": 12
+            },
+            {
+                "nama_id": "Kab. Bangkalan",
+                "nama_en": "Bangkalan Regency",
+                "id": 13
+            },
+            {
+                "nama_id": "Kab. Gresik",
+                "nama_en": "Gresik Regency",
+                "id": 14
+            },
+            {
+                "nama_id": "Kab. Lamongan",
+                "nama_en": "Lamongan Regency",
+                "id": 15
+            },
+            {
+                "nama_id": "Kab. Tuban",
+                "nama_en": "Tuban Regency",
+                "id": 16
+            },
+            {
+                "nama_id": "Kab. Bojonegoro",
+                "nama_en": "Bojonegoro Regency",
+                "id": 17
+            },
+            {
+                "nama_id": "Kab. Ngawi",
+                "nama_en": "Ngawi Regency",
+                "id": 18
+            },
+            {
+                "nama_id": "Kab. Magetan",
+                "nama_en": "Magetan Regency",
+                "id": 19
+            },
+            {
+                "nama_id": "Kab. Madiun",
+                "nama_en": "Madiun Regency",
+                "id": 20
+            },
+            {
+                "nama_id": "Kab. Nganjuk",
+                "nama_en": "Nganjuk Regency",
+                "id": 21
+            },
+            {
+                "nama_id": "Kab. Jombang",
+                "nama_en": "Jombang Regency",
+                "id": 22
+            },
+            {
+                "nama_id": "Kab. Mojokerto",
+                "nama_en": "Mojokerto Regency",
+                "id": 23
+            },
+            {
+                "nama_id": "Kab. Sidoarjo",
+                "nama_en": "Sidoarjo Regency",
+                "id": 24
+            },
+            {
+                "nama_id": "Kab. Pasuruan",
+                "nama_en": "Pasuruan Regency",
+                "id": 25
+            },
+            {
+                "nama_id": "Kab. Probolinggo",
+                "nama_en": "Probolinggo Regency",
+                "id": 26
+            },
+            {
+                "nama_id": "Kab. Situbondo",
+                "nama_en": "Situbondo Regency",
+                "id": 27
+            },
+            {
+                "nama_id": "Kab. Bondowoso",
+                "nama_en": "Bondowoso Regency",
+                "id": 28
+            },
+            {
+                "nama_id": "Kab. Banyuwangi",
+                "nama_en": "Banyuwangi Regency",
+                "id": 29
+            },
+            {
+                "nama_id": "Kab. Jember",
+                "nama_en": "Jember Regency",
+                "id": 30
+            },
+            {
+                "nama_id": "Kab. Lumajang",
+                "nama_en": "Lumajang Regency",
+                "id": 31
+            },
+            {
+                "nama_id": "Kab. Malang",
+                "nama_en": "Malang Regency",
+                "id": 32
+            },
+            {
+                "nama_id": "Kab. Kediri",
+                "nama_en": "Kediri Regency",
+                "id": 33
+            },
+            {
+                "nama_id": "Kab. Blitar",
+                "nama_en": "Blitar Regency",
+                "id": 34
+            },
+            {
+                "nama_id": "Kab. Tulungagung",
+                "nama_en": "Tulungagung Regency",
+                "id": 35
+            },
+            {
+                "nama_id": "Kab. Trenggalek",
+                "nama_en": "Trenggalek Regency",
+                "id": 36
+            },
+            {
+                "nama_id": "Kab. Ponorogo",
+                "nama_en": "Ponorogo Regency",
+                "id": 37
+            },
+            {
+                "nama_id": "Kab. Pacitan",
+                "nama_en": "Pacitan Regency",
+                "id": 38
+            }
+        ],
+        "id": 15
+    },
+    {
+        "provinsi_id": "Banten",
+        "provinsi_en": "Banten",
+        "kota": [
+            {
+                "nama_id": "Kota Serang",
+                "nama_en": "Serang City",
+                "id": 1
+            },
+            {
+                "nama_id": "Kota Cilegon",
+                "nama_en": "Cilegon City",
+                "id": 2
+            },
+            {
+                "nama_id": "Kota Tangerang",
+                "nama_en": "Tangerang City",
+                "id": 3
+            },
+            {
+                "nama_id": "Kota Tangerang Selatan",
+                "nama_en": "South Tangerang City",
+                "id": 4
+            },
+            {
+                "nama_id": "Kab. Serang",
+                "nama_en": "Serang Regency",
+                "id": 5
+            },
+            {
+                "nama_id": "Kab. Tangerang",
+                "nama_en": "Tangerang Regency",
+                "id": 6
+            },
+            {
+                "nama_id": "Kab. Lebak",
+                "nama_en": "Lebak Regency",
+                "id": 7
+            },
+            {
+                "nama_id": "Kab. Pandeglang",
+                "nama_en": "Pandeglang Regency",
+                "id": 8
+            }
+        ],
+        "id": 16
+    },
+    {
+        "provinsi_id": "Bali",
+        "provinsi_en": "Bali",
+        "kota": [
+            {
+                "nama_id": "Kota Denpasar",
+                "nama_en": "Denpasar City",
+                "id": 1
+            },
+            {
+                "nama_id": "Kab. Buleleng",
+                "nama_en": "Buleleng Regency",
+                "id": 2
+            },
+            {
+                "nama_id": "Kab. Karangasem",
+                "nama_en": "Karangasem Regency",
+                "id": 3
+            },
+            {
+                "nama_id": "Kab. Bangli",
+                "nama_en": "Bangli Regency",
+                "id": 4
+            },
+            {
+                "nama_id": "Kab. Klungkung",
+                "nama_en": "Klungkung Regency",
+                "id": 5
+            },
+            {
+                "nama_id": "Kab. Gianyar",
+                "nama_en": "Gianyar Regency",
+                "id": 6
+            },
+            {
+                "nama_id": "Kab. Badung",
+                "nama_en": "Badung Regency",
+                "id": 7
+            },
+            {
+                "nama_id": "Kab. Tabanan",
+                "nama_en": "Tabanan Regency",
+                "id": 8
+            },
+            {
+                "nama_id": "Kab. Jembrana",
+                "nama_en": "Jembrana Regency",
+                "id": 9
+            }
+        ],
+        "id": 17
+    },
+    {
+        "provinsi_id": "Nusa Tenggara Barat",
+        "provinsi_en": "West Nusa Tenggara",
+        "kota": [
+            {
+                "nama_id": "Kota Mataram",
+                "nama_en": "Mataram City",
+                "id": 1
+            },
+            {
+                "nama_id": "Kota Bima",
+                "nama_en": "Bima City",
+                "id": 2
+            },
+            {
+                "nama_id": "Kab. Lombok Utara",
+                "nama_en": "North Lombok Regency",
+                "id": 3
+            },
+            {
+                "nama_id": "Kab. Sumbawa Barat",
+                "nama_en": "West Sumbawa Regency",
+                "id": 4
+            },
+            {
+                "nama_id": "Kab. Bima",
+                "nama_en": "Bima Regency",
+                "id": 5
+            },
+            {
+                "nama_id": "Kab. Dompu",
+                "nama_en": "Dompu Regency",
+                "id": 6
+            },
+            {
+                "nama_id": "Kab. Sumbawa ",
+                "nama_en": "Sumbawa Regency",
+                "id": 7
+            },
+            {
+                "nama_id": "Kab. Lombok Timur",
+                "nama_en": "East Lombok Regency",
+                "id": 8
+            },
+            {
+                "nama_id": "Kab. Lombok Tengah",
+                "nama_en": "Central Lombok Regency",
+                "id": 9
+            },
+            {
+                "nama_id": "Kab. Lombok Barat",
+                "nama_en": "West Lombok Regency",
+                "id": 10
+            }
+        ],
+        "id": 18
+    },
+    {
+        "provinsi_id": "Nusa Tenggara Timur",
+        "provinsi_en": "East Nusa Tenggara",
+        "kota": [
+            {
+                "nama_id": "Kota Kupang",
+                "nama_en": "Kupang City",
+                "id": 1
+            },
+            {
+                "nama_id": "Kab. Malaka",
+                "nama_en": "Malaka Regency",
+                "id": 2
+            },
+            {
+                "nama_id": "Kab. Sabu Raijua",
+                "nama_en": "Sabu Raijua Regency",
+                "id": 3
+            },
+            {
+                "nama_id": "Kab. Manggarai Timur",
+                "nama_en": "East Manggarai Regency",
+                "id": 4
+            },
+            {
+                "nama_id": "Kab. Sumba Barat Daya",
+                "nama_en": "Southwest Sumba Regency",
+                "id": 5
+            },
+            {
+                "nama_id": "Kab. Sumba Tengah",
+                "nama_en": "Central Sumba Regency",
+                "id": 6
+            },
+            {
+                "nama_id": "Kab. Nagekeo",
+                "nama_en": "Nagekeo Regency",
+                "id": 7
+            },
+            {
+                "nama_id": "Kab. Manggarai Barat",
+                "nama_en": "West Manggarai Regency",
+                "id": 8
+            },
+            {
+                "nama_id": "Kab. Rote Ndao",
+                "nama_en": "Rote Ndao Regency",
+                "id": 9
+            },
+            {
+                "nama_id": "Kab. Lembata",
+                "nama_en": "Lembata Regency",
+                "id": 10
+            },
+            {
+                "nama_id": "Kab. Sumba Barat",
+                "nama_en": "West Sumba Regency",
+                "id": 11
+            },
+            {
+                "nama_id": "Kab. Sumba Timur",
+                "nama_en": "East Sumba Regency",
+                "id": 12
+            },
+            {
+                "nama_id": "Kab. Manggarai",
+                "nama_en": "Manggarai Regency",
+                "id": 13
+            },
+            {
+                "nama_id": "Kab. Ngada",
+                "nama_en": "Ngada Regency",
+                "id": 14
+            },
+            {
+                "nama_id": "Kab. Ende",
+                "nama_en": "Ende Regency",
+                "id": 15
+            },
+            {
+                "nama_id": "Kab. Sikka",
+                "nama_en": "Sikka Regency",
+                "id": 16
+            },
+            {
+                "nama_id": "Kab. Flores Timur",
+                "nama_en": "East Flores Regency",
+                "id": 17
+            },
+            {
+                "nama_id": "Kab. Alor",
+                "nama_en": "Alor Regency",
+                "id": 18
+            },
+            {
+                "nama_id": "Kab. Belu",
+                "nama_en": "Belu Regency",
+                "id": 19
+            },
+            {
+                "nama_id": "Kab. Timor Tengah Utara",
+                "nama_en": "North Central Timor Regency",
+                "id": 20
+            },
+            {
+                "nama_id": "Kab. Timor Tengah Selatan",
+                "nama_en": "South Central Timor Regency",
+                "id": 21
+            },
+            {
+                "nama_id": "Kab. Kupang",
+                "nama_en": "Kupang Regency",
+                "id": 22
+            }
+        ],
+        "id": 19
+    },
+    {
+        "provinsi_id": "Kalimantan Barat",
+        "provinsi_en": "West Kalimantan",
+        "kota": [
+            {
+                "nama_id": "Kota Pontianak",
+                "nama_en": "Pontianak City",
+                "id": 1
+            },
+            {
+                "nama_id": "Kota Singkawang",
+                "nama_en": "Singkawang City",
+                "id": 2
+            },
+            {
+                "nama_id": "Kab. Kubu Raya",
+                "nama_en": "Kubu Raya Regency",
+                "id": 3
+            },
+            {
+                "nama_id": "Kab. Kayong Utara",
+                "nama_en": "North Kayong Regency",
+                "id": 4
+            },
+            {
+                "nama_id": "Kab. Sekadau",
+                "nama_en": "Sekadau Regency",
+                "id": 5
+            },
+            {
+                "nama_id": "Kab. Melawi",
+                "nama_en": "Melawi Regency",
+                "id": 6
+            },
+            {
+                "nama_id": "Kab. Landak",
+                "nama_en": "Landak Regency",
+                "id": 7
+            },
+            {
+                "nama_id": "Kab. Bengkayang",
+                "nama_en": "Bengkayang Regency",
+                "id": 8
+            },
+            {
+                "nama_id": "Kab. Kapuas Hulu",
+                "nama_en": "Kapuas Hulu Regency",
+                "id": 9
+            },
+            {
+                "nama_id": "Kab. Sintang ",
+                "nama_en": "Sintang Regency",
+                "id": 10
+            },
+            {
+                "nama_id": "Kab. Ketapang",
+                "nama_en": "Ketapang Regency",
+                "id": 11
+            },
+            {
+                "nama_id": "Kab. Sanggau ",
+                "nama_en": "Sanggau Regency",
+                "id": 12
+            },
+            {
+                "nama_id": "Kab. Mempawah",
+                "nama_en": "Mempawah Regency",
+                "id": 13
+            },
+            {
+                "nama_id": "Kab. Sambas",
+                "nama_en": "Sambas Regency",
+                "id": 14
+            }
+        ],
+        "id": 20
+    },
+    {
+        "provinsi_id": "Kalimantan Tengah",
+        "provinsi_en": "Central Kalimantan",
+        "kota": [
+            {
+                "nama_id": "Kota Palangkaraya",
+                "nama_en": "Palangkaraya City",
+                "id": 1
+            },
+            {
+                "nama_id": "Kab. Barito Timur",
+                "nama_en": "East Barito Regency",
+                "id": 2
+            },
+            {
+                "nama_id": "Kab. Murung Raya",
+                "nama_en": "Murung Raya Regency",
+                "id": 3
+            },
+            {
+                "nama_id": "Kab. Pulang Pisau",
+                "nama_en": "Pulang Pisau Regency",
+                "id": 4
+            },
+            {
+                "nama_id": "Kab. Gunung Mas",
+                "nama_en": "Gunung Mas Regency",
+                "id": 5
+            },
+            {
+                "nama_id": "Kab. Lamandau",
+                "nama_en": "Lamandau Regency",
+                "id": 6
+            },
+            {
+                "nama_id": "Kab. Sukamara",
+                "nama_en": "Sukamara Regency",
+                "id": 7
+            },
+            {
+                "nama_id": "Kab. Seruyan",
+                "nama_en": "Seruyan Regency",
+                "id": 8
+            },
+            {
+                "nama_id": "Kab. Katingan",
+                "nama_en": "Katingan Regency",
+                "id": 9
+            },
+            {
+                "nama_id": "Kab. Barito Utara",
+                "nama_en": "North Barito Regency",
+                "id": 10
+            },
+            {
+                "nama_id": "Kab. Barito Selatan",
+                "nama_en": "South Barito Regency",
+                "id": 11
+            },
+            {
+                "nama_id": "Kab. Kapuas",
+                "nama_en": "Kapuas Regency",
+                "id": 12
+            },
+            {
+                "nama_id": "Kab. Kotawaringin Timur",
+                "nama_en": "East Kotawaringin Regency",
+                "id": 13
+            },
+            {
+                "nama_id": "Kab. Kotawaringin Barat",
+                "nama_en": "West Kotawaringin Regency",
+                "id": 14
+            }
+        ],
+        "id": 21
+    },
+    {
+        "provinsi_id": "Kalimantan Selatan",
+        "provinsi_en": "South Kalimantan",
+        "kota": [
+            {
+                "nama_id": "Kota Banjarmasin",
+                "nama_en": "Banjarmasin City",
+                "id": 1
+            },
+            {
+                "nama_id": "Kota Banjarbaru",
+                "nama_en": "Banjarbaru City",
+                "id": 2
+            },
+            {
+                "nama_id": "Kab. Balangan",
+                "nama_en": "Balangan Regency",
+                "id": 3
+            },
+            {
+                "nama_id": "Kab. Tanah Bambu",
+                "nama_en": "Tanah Bambu Regency",
+                "id": 4
+            },
+            {
+                "nama_id": "Kab. Tabalong",
+                "nama_en": "Tabalong Regency",
+                "id": 5
+            },
+            {
+                "nama_id": "Kab. Hulu Sungai Utara",
+                "nama_en": "North Hulu Sungai Regency",
+                "id": 6
+            },
+            {
+                "nama_id": "Kab. Hulu Sungai Tengah",
+                "nama_en": "Central Hulu Sungai Regency",
+                "id": 7
+            },
+            {
+                "nama_id": "Kab. Hulu Sungai Selatan",
+                "nama_en": "South Hulu Sungai Regency",
+                "id": 8
+            },
+            {
+                "nama_id": "Kab. Tapin",
+                "nama_en": "Tapin Regency",
+                "id": 9
+            },
+            {
+                "nama_id": "Kab. Barito Kuala",
+                "nama_en": "Barito Kuala Regency",
+                "id": 10
+            },
+            {
+                "nama_id": "Kab. Banjar",
+                "nama_en": "Banjar Regency",
+                "id": 11
+            },
+            {
+                "nama_id": "Kab. Kotabaru",
+                "nama_en": "Kotabaru Regency",
+                "id": 12
+            },
+            {
+                "nama_id": "Kab. Tanah Laut",
+                "nama_en": "Tanah Laut Regency",
+                "id": 13
+            }
+        ],
+        "id": 22
+    },
+    {
+        "provinsi_id": "Kalimantan Timur",
+        "provinsi_en": "East Kalimantan",
+        "kota": [
+            {
+                "nama_id": "Kota Samarinda",
+                "nama_en": "Samarinda City",
+                "id": 1
+            },
+            {
+                "nama_id": "Kota Bontang",
+                "nama_en": "Bontang City",
+                "id": 2
+            },
+            {
+                "nama_id": "Kota Balikpapan",
+                "nama_en": "Balikpapan City",
+                "id": 3
+            },
+            {
+                "nama_id": "Kab. Mahakam Ulu",
+                "nama_en": "Mahakam Ulu Regency",
+                "id": 4
+            },
+            {
+                "nama_id": "Kab. Penajam Paser Utara",
+                "nama_en": "North Penajam Paser Regency",
+                "id": 5
+            },
+            {
+                "nama_id": "Kab. Kutai Timur",
+                "nama_en": "East Kutai Regency",
+                "id": 6
+            },
+            {
+                "nama_id": "Kab. Kutai Barat",
+                "nama_en": "West Kutai Regency",
+                "id": 7
+            },
+            {
+                "nama_id": "Kab. Berau",
+                "nama_en": "Berau Regency",
+                "id": 8
+            },
+            {
+                "nama_id": "Kab. Kutai Kertanegara",
+                "nama_en": "Kutai Kartanegara Regency",
+                "id": 9
+            },
+            {
+                "nama_id": "Kab. Paser",
+                "nama_en": "Paser Regency",
+                "id": 10
+            }
+        ],
+        "id": 23
+    },
+    {
+        "provinsi_id": "Kalimantan Utara",
+        "provinsi_en": "North Kalimantan",
+        "kota": [
+            {
+                "nama_id": "Kota Tarakan",
+                "nama_en": "Tarakan City",
+                "id": 1
+            },
+            {
+                "nama_id": "Kab. Tana Tidung",
+                "nama_en": "Tana Tidung Regency",
+                "id": 2
+            },
+            {
+                "nama_id": "Kab. Nunukan",
+                "nama_en": "Nunukan Regency",
+                "id": 3
+            },
+            {
+                "nama_id": "Kab. Malinau",
+                "nama_en": "Malinau Regency",
+                "id": 4
+            },
+            {
+                "nama_id": "Kab. Bulungan",
+                "nama_en": "Bulungan Regency",
+                "id": 5
+            }
+        ],
+        "id": 24
+    },
+    {
+        "provinsi_id": "Sulawesi Utara",
+        "provinsi_en": "North Sulawesi",
+        "kota": [
+            {
+                "nama_id": "Kota Manado",
+                "nama_en": "Manado City",
+                "id": 1
+            },
+            {
+                "nama_id": "Kota Tomohon",
+                "nama_en": "Tomohon City",
+                "id": 2
+            },
+            {
+                "nama_id": "Kota Bitung",
+                "nama_en": "Bitung City",
+                "id": 3
+            },
+            {
+                "nama_id": "Kota Kotamobagu",
+                "nama_en": "Kotamobagu City",
+                "id": 4
+            },
+            {
+                "nama_id": "Kab. Bolaang Mangondow Selatan",
+                "nama_en": "South Bolaang Mongondow Regency",
+                "id": 5
+            },
+            {
+                "nama_id": "Kab. Bolaang Mangondow Timur",
+                "nama_en": "East Bolaang Mongondow Regency",
+                "id": 6
+            },
+            {
+                "nama_id": "Kab. Kepulauan Siau Tagulandang Biaro",
+                "nama_en": "Siau Tagulandang Biaro Islands Regency",
+                "id": 7
+            },
+            {
+                "nama_id": "Kab. Bolaang Mangondow Utara",
+                "nama_en": "North Bolaang Mongondow Regency",
+                "id": 8
+            },
+            {
+                "nama_id": "Kab. Minahasa Tenggara",
+                "nama_en": "Southeast Minahasa Regency",
+                "id": 9
+            },
+            {
+                "nama_id": "Kab. Minahasa Utara",
+                "nama_en": "North Minahasa Regency",
+                "id": 10
+            },
+            {
+                "nama_id": "Kab. Minahasa Selatan",
+                "nama_en": "South Minahasa Regency",
+                "id": 11
+            },
+            {
+                "nama_id": "Kab. Kepulauan Talaud",
+                "nama_en": "Talaud Islands Regency",
+                "id": 12
+            },
+            {
+                "nama_id": "Kab. Kepulauan Sangihe",
+                "nama_en": "Sangihe Islands Regency",
+                "id": 13
+            },
+            {
+                "nama_id": "Kab. Minahasa",
+                "nama_en": "Minahasa Regency",
+                "id": 14
+            },
+            {
+                "nama_id": "Kab. Bolaang Mangondow",
+                "nama_en": "Bolaang Mongondow Regency",
+                "id": 15
+            }
+        ],
+        "id": 25
+    },
+    {
+        "provinsi_id": "Sulawesi Tengah",
+        "provinsi_en": "Central Sulawesi",
+        "kota": [
+            {
+                "nama_id": "Kota Palu",
+                "nama_en": "Palu City",
+                "id": 1
+            },
+            {
+                "nama_id": "Kab. Morowali Utara",
+                "nama_en": "North Morowali Regency",
+                "id": 2
+            },
+            {
+                "nama_id": "Kab. Banggai Laut",
+                "nama_en": "Banggai Laut Regency",
+                "id": 3
+            },
+            {
+                "nama_id": "Kab. Sigi",
+                "nama_en": "Sigi Regency",
+                "id": 4
+            },
+            {
+                "nama_id": "Kab. Tojo Una-Una",
+                "nama_en": "Tojo Una-Una Regency",
+                "id": 5
+            },
+            {
+                "nama_id": "Kab. Parigi Moutong",
+                "nama_en": "Parigi Moutong Regency",
+                "id": 6
+            },
+            {
+                "nama_id": "Kab. Banggai Kepulauan",
+                "nama_en": "Banggai Islands Regency",
+                "id": 7
+            },
+            {
+                "nama_id": "Kab. Morowali",
+                "nama_en": "Morowali Regency",
+                "id": 8
+            },
+            {
+                "nama_id": "Kab. Buol",
+                "nama_en": "Buol Regency",
+                "id": 9
+            },
+            {
+                "nama_id": "Kab. Toli-Toli",
+                "nama_en": "Toli-Toli Regency",
+                "id": 10
+            },
+            {
+                "nama_id": "Kab. Donggala",
+                "nama_en": "Donggala Regency",
+                "id": 11
+            },
+            {
+                "nama_id": "Kab. Poso",
+                "nama_en": "Poso Regency",
+                "id": 12
+            },
+            {
+                "nama_id": "Kab. Banggai",
+                "nama_en": "Banggai Regency",
+                "id": 13
+            }
+        ],
+        "id": 26
+    },
+    {
+        "provinsi_id": "Sulawesi Selatan",
+        "provinsi_en": "South Sulawesi",
+        "kota": [
+            {
+                "nama_id": "Kota Makasar",
+                "nama_en": "Makassar City",
+                "id": 1
+            },
+            {
+                "nama_id": "Kota Palopo",
+                "nama_en": "Palopo City",
+                "id": 2
+            },
+            {
+                "nama_id": "Kota Pare Pare",
+                "nama_en": "Pare Pare City",
+                "id": 3
+            },
+            {
+                "nama_id": "Kab. Toraja Utara",
+                "nama_en": "North Toraja Regency",
+                "id": 4
+            },
+            {
+                "nama_id": "Kab. Luwu Timur",
+                "nama_en": "East Luwu Regency",
+                "id": 5
+            },
+            {
+                "nama_id": "Kab. Luwu Utara",
+                "nama_en": "North Luwu Regency",
+                "id": 6
+            },
+            {
+                "nama_id": "Kab. Tana Toraja",
+                "nama_en": "Tana Toraja Regency",
+                "id": 7
+            },
+            {
+                "nama_id": "Kab. Luwu",
+                "nama_en": "Luwu Regency",
+                "id": 8
+            },
+            {
+                "nama_id": "Kab. Enrekang",
+                "nama_en": "Enrekang Regency",
+                "id": 9
+            },
+            {
+                "nama_id": "Kab. Pinrang",
+                "nama_en": "Pinrang Regency",
+                "id": 10
+            },
+            {
+                "nama_id": "Kab. Sidenreng Rappang",
+                "nama_en": "Sidenreng Rappang Regency",
+                "id": 11
+            },
+            {
+                "nama_id": "Kab. Wajo",
+                "nama_en": "Wajo Regency",
+                "id": 12
+            },
+            {
+                "nama_id": "Kab. Soppeng",
+                "nama_en": "Soppeng Regency",
+                "id": 13
+            },
+            {
+                "nama_id": "Kab. Barru",
+                "nama_en": "Barru Regency",
+                "id": 14
+            },
+            {
+                "nama_id": "Kab. Pangkajene Kepulauan",
+                "nama_en": "Pangkajene Islands Regency",
+                "id": 15
+            },
+            {
+                "nama_id": "Kab. Maros",
+                "nama_en": "Maros Regency",
+                "id": 16
+            },
+            {
+                "nama_id": "Kab. Bone",
+                "nama_en": "Bone Regency",
+                "id": 17
+            },
+            {
+                "nama_id": "Kab. Sinjai",
+                "nama_en": "Sinjai Regency",
+                "id": 18
+            },
+            {
+                "nama_id": "Kab. Gowa",
+                "nama_en": "Gowa Regency",
+                "id": 19
+            },
+            {
+                "nama_id": "Kab. Takalar",
+                "nama_en": "Takalar Regency",
+                "id": 20
+            },
+            {
+                "nama_id": "Kab. Jeneponto",
+                "nama_en": "Jeneponto Regency",
+                "id": 21
+            },
+            {
+                "nama_id": "Kab. Bantaeng",
+                "nama_en": "Bantaeng Regency",
+                "id": 22
+            },
+            {
+                "nama_id": "Kab. Bulukumba",
+                "nama_en": "Bulukumba Regency",
+                "id": 23
+            },
+            {
+                "nama_id": "Kab. Kepulauan Selayar",
+                "nama_en": "Selayar Islands Regency",
+                "id": 24
+            }
+        ],
+        "id": 27
+    },
+    {
+        "provinsi_id": "Sulawesi Tenggara",
+        "provinsi_en": "Southeast Sulawesi",
+        "kota": [
+            {
+                "nama_id": "Kota Kendari",
+                "nama_en": "Kendari City",
+                "id": 1
+            },
+            {
+                "nama_id": "Kota Bau Bau",
+                "nama_en": "Bau Bau City",
+                "id": 2
+            },
+            {
+                "nama_id": "Kab. Buton Selatan",
+                "nama_en": "South Buton Regency",
+                "id": 3
+            },
+            {
+                "nama_id": "Kab. Buton Tengah",
+                "nama_en": "Central Buton Regency",
+                "id": 4
+            },
+            {
+                "nama_id": "Kab. Muna Barat",
+                "nama_en": "West Muna Regency",
+                "id": 5
+            },
+            {
+                "nama_id": "Kab. Konawe Kepulauan",
+                "nama_en": "Konawe Islands Regency",
+                "id": 6
+            },
+            {
+                "nama_id": "Kab. Kolaka Timur",
+                "nama_en": "East Kolaka Regency",
+                "id": 7
+            },
+            {
+                "nama_id": "Kab. Buton Utara",
+                "nama_en": "North Buton Regency",
+                "id": 8
+            },
+            {
+                "nama_id": "Kab. Konawe Utara",
+                "nama_en": "North Konawe Regency",
+                "id": 9
+            },
+            {
+                "nama_id": "Kab. Kolaka Utara",
+                "nama_en": "North Kolaka Regency",
+                "id": 10
+            },
+            {
+                "nama_id": "Kab. Wakatobi",
+                "nama_en": "Wakatobi Regency",
+                "id": 11
+            },
+            {
+                "nama_id": "Kab. Bombana",
+                "nama_en": "Bombana Regency",
+                "id": 12
+            },
+            {
+                "nama_id": "Kab. Konawe Selatan",
+                "nama_en": "South Konawe Regency",
+                "id": 13
+            },
+            {
+                "nama_id": "Kab. Buton",
+                "nama_en": "Buton Regency",
+                "id": 14
+            },
+            {
+                "nama_id": "Kab. Muna",
+                "nama_en": "Muna Regency",
+                "id": 15
+            },
+            {
+                "nama_id": "Kab. Konawe",
+                "nama_en": "Konawe Regency",
+                "id": 16
+            },
+            {
+                "nama_id": "Kab. Kolaka",
+                "nama_en": "Kolaka Regency",
+                "id": 17
+            }
+        ],
+        "id": 28
+    },
+    {
+        "provinsi_id": "Gorontalo",
+        "provinsi_en": "Gorontalo",
+        "kota": [
+            {
+                "nama_id": "Kota Gorontalo",
+                "nama_en": "Gorontalo City",
+                "id": 1
+            },
+            {
+                "nama_id": "Kab. Pohuwato",
+                "nama_en": "Pohuwato Regency",
+                "id": 2
+            },
+            {
+                "nama_id": "Kab. Bone Bolango",
+                "nama_en": "Bone Bolango Regency",
+                "id": 3
+            },
+            {
+                "nama_id": "Kab. Boalemo",
+                "nama_en": "Boalemo Regency",
+                "id": 4
+            },
+            {
+                "nama_id": "Kab. Gorontalo",
+                "nama_en": "Gorontalo Regency",
+                "id": 5
+            },
+            {
+                "nama_id": "Kab. Gorontalo Utara",
+                "nama_en": "North Gorontalo Regency",
+                "id": 6
+            }
+        ],
+        "id": 29
+    },
+    {
+        "provinsi_id": "Sulawesi Barat",
+        "provinsi_en": "West Sulawesi",
+        "kota": [
+            {
+                "nama_id": "Kab. Majene",
+                "nama_en": "Majene Regency",
+                "id": 1
+            },
+            {
+                "nama_id": "Kab. Polowali Mandar",
+                "nama_en": "Polowali Mandar Regency",
+                "id": 2
+            },
+            {
+                "nama_id": "Kab. Mamasa",
+                "nama_en": "Mamasa Regency",
+                "id": 3
+            },
+            {
+                "nama_id": "Kab. Mamuju",
+                "nama_en": "Mamuju Regency",
+                "id": 4
+            },
+            {
+                "nama_id": "Kab. Mamuju Utara",
+                "nama_en": "North Mamuju Regency",
+                "id": 5
+            },
+            {
+                "nama_id": "Kab. Mamuju Tengah",
+                "nama_en": "Central Mamuju Regency",
+                "id": 6
+            }
+        ],
+        "id": 30
+    },
+    {
+        "provinsi_id": "Maluku",
+        "provinsi_en": "Maluku",
+        "kota": [
+            {
+                "nama_id": "Kota Ambon",
+                "nama_en": "Ambon City",
+                "id": 1
+            },
+            {
+                "nama_id": "Kota Tual",
+                "nama_en": "Tual City",
+                "id": 2
+            },
+            {
+                "nama_id": "Kab. Buru Selatan",
+                "nama_en": "South Buru Regency",
+                "id": 3
+            },
+            {
+                "nama_id": "Kab. Maluku Barat Daya",
+                "nama_en": "Southwest Maluku Regency",
+                "id": 4
+            },
+            {
+                "nama_id": "Kab. Kepulauan Aru",
+                "nama_en": "Aru Islands Regency",
+                "id": 5
+            },
+            {
+                "nama_id": "Kab. Seram Bagian Barat ",
+                "nama_en": "West Seram Regency",
+                "id": 6
+            },
+            {
+                "nama_id": "Kab. Seram Bagian Timur",
+                "nama_en": "East Seram Regency",
+                "id": 7
+            },
+            {
+                "nama_id": "Kab. Buru",
+                "nama_en": "Buru Regency",
+                "id": 8
+            },
+            {
+                "nama_id": "Kab. Maluku Tenggara Barat",
+                "nama_en": "West Southeast Maluku Regency",
+                "id": 9
+            },
+            {
+                "nama_id": "Kab. Maluku Tenggara",
+                "nama_en": "Southeast Maluku Regency",
+                "id": 10
+            },
+            {
+                "nama_id": "Kab. Maluku Tengah",
+                "nama_en": "Central Maluku Regency",
+                "id": 11
+            }
+        ],
+        "id": 31
+    },
+    {
+        "provinsi_id": "Maluku Utara",
+        "provinsi_en": "North Maluku",
+        "kota": [
+            {
+                "nama_id": "Kota Ternate",
+                "nama_en": "Ternate City",
+                "id": 1
+            },
+            {
+                "nama_id": "Kota Tidore Kepulauan",
+                "nama_en": "Tidore Islands City",
+                "id": 2
+            },
+            {
+                "nama_id": "Kab. Pulau Taliabu",
+                "nama_en": "Taliabu Island Regency",
+                "id": 3
+            },
+            {
+                "nama_id": "Kab. Pulau Morotai",
+                "nama_en": "Morotai Island Regency",
+                "id": 4
+            },
+            {
+                "nama_id": "Kab. Halmahera Timur",
+                "nama_en": "East Halmahera Regency",
+                "id": 5
+            },
+            {
+                "nama_id": "Kab. Kepulauan Sula",
+                "nama_en": "Sula Islands Regency",
+                "id": 6
+            },
+            {
+                "nama_id": "Kab. Halmahera Selatan",
+                "nama_en": "South Halmahera Regency",
+                "id": 7
+            },
+            {
+                "nama_id": "Kab. Halmahera Utara",
+                "nama_en": "North Halmahera Regency",
+                "id": 8
+            },
+            {
+                "nama_id": "Kab. Halmahera Tengah",
+                "nama_en": "Central Halmahera Regency",
+                "id": 9
+            },
+            {
+                "nama_id": "Kab. Halmahera Barat",
+                "nama_en": "West Halmahera Regency",
+                "id": 10
+            }
+        ],
+        "id": 32
+    },
+    {
+        "provinsi_id": "Papua",
+        "provinsi_en": "Papua",
+        "kota": [
+            {
+                "nama_id": "Kota Jayapura",
+                "nama_en": "Jayapura City",
+                "id": 1
+            },
+            {
+                "nama_id": "Kab. Deiyai",
+                "nama_en": "Deiyai Regency",
+                "id": 2
+            },
+            {
+                "nama_id": "Kab. Intan Jaya",
+                "nama_en": "Intan Jaya Regency",
+                "id": 3
+            },
+            {
+                "nama_id": "Kab. Dogiyai",
+                "nama_en": "Dogiyai Regency",
+                "id": 4
+            },
+            {
+                "nama_id": "Kab. Puncak",
+                "nama_en": "Puncak Regency",
+                "id": 5
+            },
+            {
+                "nama_id": "Kab. Nduga",
+                "nama_en": "Nduga Regency",
+                "id": 6
+            },
+            {
+                "nama_id": "Kab. Lanny Jaya",
+                "nama_en": "Lanny Jaya Regency",
+                "id": 7
+            },
+            {
+                "nama_id": "Kab. Yalimo",
+                "nama_en": "Yalimo Regency",
+                "id": 8
+            },
+            {
+                "nama_id": "Kab. Mamberamo Tengah",
+                "nama_en": "Central Mamberamo Regency",
+                "id": 9
+            },
+            {
+                "nama_id": "Kab. Mamberamo Raya",
+                "nama_en": "Mamberamo Raya Regency",
+                "id": 10
+            },
+            {
+                "nama_id": "Kab. Supiori",
+                "nama_en": "Supiori Regency",
+                "id": 11
+            },
+            {
+                "nama_id": "Kab. Asmat",
+                "nama_en": "Asmat Regency",
+                "id": 12
+            },
+            {
+                "nama_id": "Kab. Mappi",
+                "nama_en": "Mappi Regency",
+                "id": 13
+            },
+            {
+                "nama_id": "Kab. Boven Digoel",
+                "nama_en": "Boven Digoel Regency",
+                "id": 14
+            },
+            {
+                "nama_id": "Kab. Waropen",
+                "nama_en": "Waropen Regency",
+                "id": 15
+            },
+            {
+                "nama_id": "Kab. Tolikara",
+                "nama_en": "Tolikara Regency",
+                "id": 16
+            },
+            {
+                "nama_id": "Kab. Yahukimo",
+                "nama_en": "Yahukimo Regency",
+                "id": 17
+            },
+            {
+                "nama_id": "Kab. Pegunungan Bintang",
+                "nama_en": "Pegunungan Bintang Regency",
+                "id": 18
+            },
+            {
+                "nama_id": "Kab. Keerom",
+                "nama_en": "Keerom Regency",
+                "id": 19
+            },
+            {
+                "nama_id": "Kab. Sarmi",
+                "nama_en": "Sarmi Regency",
+                "id": 20
+            },
+            {
+                "nama_id": "Kab. Mimika",
+                "nama_en": "Mimika Regency",
+                "id": 21
+            },
+            {
+                "nama_id": "Kab. Paniai",
+                "nama_en": "Paniai Regency",
+                "id": 22
+            },
+            {
+                "nama_id": "Kab. Puncak Jaya",
+                "nama_en": "Puncak Jaya Regency",
+                "id": 23
+            },
+            {
+                "nama_id": "Kab. Biak Numfor",
+                "nama_en": "Biak Numfor Regency",
+                "id": 24
+            },
+            {
+                "nama_id": "Kab. Kepulauan Yapen",
+                "nama_en": "Yapen Islands Regency",
+                "id": 25
+            },
+            {
+                "nama_id": "Kab. Nabire",
+                "nama_en": "Nabire Regency",
+                "id": 26
+            },
+            {
+                "nama_id": "Kab. Jayapura",
+                "nama_en": "Jayapura Regency",
+                "id": 27
+            },
+            {
+                "nama_id": "Kab. Jayawijaya",
+                "nama_en": "Jayawijaya Regency",
+                "id": 28
+            },
+            {
+                "nama_id": "Kab. Merauke",
+                "nama_en": "Merauke Regency",
+                "id": 29
+            }
+        ],
+        "id": 33
+    },
+    {
+        "provinsi_id": "Papua Barat",
+        "provinsi_en": "West Papua",
+        "kota": [
+            {
+                "nama_id": "Kota Sorong",
+                "nama_en": "Sorong City",
+                "id": 1
+            },
+            {
+                "nama_id": "Kab. Pegunungan Arfak",
+                "nama_en": "Pegunungan Arfak Regency",
+                "id": 2
+            },
+            {
+                "nama_id": "Kab. Manokwari Selatan",
+                "nama_en": "South Manokwari Regency",
+                "id": 3
+            },
+            {
+                "nama_id": "Kab. Maybrat",
+                "nama_en": "Maybrat Regency",
+                "id": 4
+            },
+            {
+                "nama_id": "Kab. Tambrauw",
+                "nama_en": "Tambrauw Regency",
+                "id": 5
+            },
+            {
+                "nama_id": "Kab. Kaimana",
+                "nama_en": "Kaimana Regency",
+                "id": 6
+            },
+            {
+                "nama_id": "Kab. Teluk Wondama",
+                "nama_en": "Teluk Wondama Regency",
+                "id": 7
+            },
+            {
+                "nama_id": "Kab. Teluk Bintuni",
+                "nama_en": "Teluk Bintuni Regency",
+                "id": 8
+            },
+            {
+                "nama_id": "Kab. Raja Ampat",
+                "nama_en": "Raja Ampat Regency",
+                "id": 9
+            },
+            {
+                "nama_id": "Kab. Sorong Selatan",
+                "nama_en": "South Sorong Regency",
+                "id": 10
+            },
+            {
+                "nama_id": "Kab. Fak Fak",
+                "nama_en": "Fakfak Regency",
+                "id": 11
+            },
+            {
+                "nama_id": "Kab. Manokwari",
+                "nama_en": "Manokwari Regency",
+                "id": 12
+            },
+            {
+                "nama_id": "Kab. Sorong",
+                "nama_en": "Sorong Regency",
+                "id": 13
+            }
+        ],
+        "id": 34
+    }
+]

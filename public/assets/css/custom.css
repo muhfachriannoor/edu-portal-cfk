@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'Mazda Type';
+    src: url('../fonts/MazdaTypeRegular.woff2') format('woff2'),
+    url('../fonts/MazdaTypeRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Mazda Type';
+    src: url('../fonts/MazdaTypeBold.woff2') format('woff2'),
+    url('../fonts/MazdaTypeBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+body {
+    font-family: 'Mazda Type', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: 'Mazda Type', sans-serif;
+}
+
+
+
+.dropify-wrapper .dropify-render img {
+    margin: 0 auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/*MARK: Card */
+.card-white {
+    border-radius: 40px;
+    background: linear-gradient(180deg,
+        rgba(255, 255, 255, 0.4) 0%,
+        rgba(255, 255, 255, 0.1) 100%);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    color: #851D30 !important;
+    margin-bottom: 12px;
+}
+
+.custom-select {
+    width: 100%;
+  position: relative;
+  display: inline-block;
+  appearance: none;
+}
+
+.custom-select::after {
+  content: '';
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 16px;
+  background: url('../img/icons/icon-chevron-down.svg') no-repeat center center;
+  background-size: contain;
+  pointer-events: none;
+}
+
+.custom-select select {
+  appearance: none; /* hilangkan arrow default */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding-right: 36px; /* beri ruang buat icon */
+}
+.custom-select select:focus-visible {
+    outline: none; /* hilangkan outline default */
+}
+
+input:focus-visible {
+    outline: none; /* hilangkan outline default */
+    border: 1px solid #851D30; /* tambahkan border custom */
+    box-shadow: 0 0 5px rgba(133, 29, 48, 0.5); /* tambahkan shadow */
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

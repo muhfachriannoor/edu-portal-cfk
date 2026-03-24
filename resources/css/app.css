@@ -1,0 +1,20 @@
+@import "tailwindcss";
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+
+/* Vendor CSS */
+@import "datatables.net-dt/css/dataTables.dataTables.css";
+@import "daterangepicker/daterangepicker.css";
+@import "dropify/dist/css/dropify.css";
+@import "flatpickr/dist/flatpickr.css";
+@import "toastr/build/toastr.css";
+@import "perfect-scrollbar/css/perfect-scrollbar.css";
+@import "choices.js/public/assets/styles/choices.css";
+@import "quill/dist/quill.snow.css";
+
+/* Your custom styles */
+@import "../../public/assets/css/custom.css";
+@import "../../public/assets/css/datatable.css";
+
+[x-cloak] {
+  display: none !important;
+}
