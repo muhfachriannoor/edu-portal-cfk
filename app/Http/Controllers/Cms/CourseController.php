@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers\Cms;
 
-use App\Models\Category;
+use App\Models\Course;
 use Illuminate\View\View;
 use Illuminate\Http\Request;
 use App\View\Data\CategoryData;
@@ -12,13 +12,15 @@ use Illuminate\Http\RedirectResponse;
 use Illuminate\Support\Facades\DB;
 use App\Http\Requests\CategoryRequest;
 use App\Http\Controllers\Cms\CmsController;
+use App\Http\Requests\CourseRequest;
+use App\View\Data\CategoryFormData;
 
 class CourseController extends CmsController
 {
     /**
      * @var string
      */
-    protected $resourceName = 'category';
+    protected $resourceName = 'course';
     
     /**
      * Display a listing of the resource.
@@ -33,7 +35,7 @@ class CourseController extends CmsController
      */
     public function datatables()
     {
-        return (new Category)->getDatatables();
+    return (new Course)->getDatatables();
     }
 
     /**
@@ -42,7 +44,7 @@ class CourseController extends CmsController
     public function getLists()
     {
         return [
-            'categories' => CategoryData::lists(),
+            'category' => CategoryFormData::lists(),
         ];
     }
 
@@ -51,11 +53,11 @@ class CourseController extends CmsController
      */
     public function index(): View
     {
-        return view("cms.category.index", [
+        return view("cms.course.index", [
             'resourceName' => $this->resourceName,
             'lists' => $this->getLists(),
             'pageMeta' => [
-                'title' => 'Category List'
+                'title' => 'Course List'
             ]
         ]);
     }
@@ -63,17 +65,17 @@ class CourseController extends CmsController
     /**
      * Show the form for creating a new resource.
      */
-    public function create(Category $category): View
+    public function create(Course $course): View
     {
-        return view("cms.category.form", [
+        return view("cms.course.form", [
             'resourceName' => $this->resourceName,
             'mode' => __FUNCTION__,
-            'category' => $category,
+            'course' => $course,
             'lists' => $this->getLists(),
             'pageMeta' => [
-                'title' => 'Create Category',
+                'title' => 'Create Course',
                 'method' => 'post',
-                'url' => route('secretgate19.category.store')
+                'url' => route('admin.course.store')
             ]
         ]);
     }
@@ -81,7 +83,7 @@ class CourseController extends CmsController
     /**
      * Store a newly created resource in storage.
      */
-    public function store(CategoryRequest $request): RedirectResponse
+    public function store(CourseRequest $request): RedirectResponse
     {
         DB::beginTransaction();
 
@@ -89,47 +91,19 @@ class CourseController extends CmsController
             $request->validated();
             $this->handleImage($request);
 
-            $parentId = $request->input('parent_id') ?: null;
-            $isNavbar = $request->input('is_navbar') ?: 0;
-
-            $category = Category::create([
-                'name' => $request->input('name_en'),
+            $course = Course::create([
+                'name' => $request->input('name'),
+                'description' => $request->input('description'),
                 'slug' => $request->input('slug'),
-                'description' => $request->input('description_en'),
-                'order' => $request->input('order'),
-                'is_active' => $request->boolean('is_active'),
-                'is_navbar' => $isNavbar,
                 'image' => $request->input('image'),
-                'icon_image' => $request->input('icon_image'),
-                'parent_id' => $parentId,
             ]);
 
-            // 3. Handle Translations & SEO Metadata
-            foreach (['en', 'id'] as $locale) {
-                $category->translations()->create([
-                    'locale' => $locale,
-                    'name' => $request->input("name_{$locale}"),
-                    'description' => $request->input("description_{$locale}"),
-                ]);
-
-                $metaTitle = $request->input("meta_title_{$locale}");
-                $metaDesc = $request->input("meta_description_{$locale}");
-                $metaKey = $request->input("meta_keywords_{$locale}");
-
-                if (!empty($metaTitle) || !empty($metaDesc) || !empty($metaKey)) {
-                    $category->seos()->create([
-                        'locale' => $locale,
-                        'meta_title' => $metaTitle,
-                        'meta_description' => $metaDesc,
-                        'meta_keywords' => $metaKey,
-                    ]);
-                }
-            }
+            $course->categories()->attach($request->input('categories_id'));
             
             DB::commit();
 
-            return to_route('secretgate19.category.index')
-                ->with('success', 'Category created successfully.');
+            return to_route('admin.course.index')
+                ->with('success', 'Course created successfully.');
 
         } catch(\Exception $e){
             DB::rollback();
@@ -141,15 +115,15 @@ class CourseController extends CmsController
     /**
      * Display the specified resource.
      */
-    public function show(Category $category): View
+    public function show(Course $course): View
     {
-        return view("cms.category.form", [
+        return view("cms.course.form", [
             'resourceName' => $this->resourceName,
             'mode' => __FUNCTION__,
-            'category' => $category,
+            'course' => $course,
             'lists' => $this->getLists(),
             'pageMeta' => [
-                'title' => 'View Category',
+                'title' => 'View Course',
                 'method' => null,
                 'url' => null
             ]
@@ -159,17 +133,17 @@ class CourseController extends CmsController
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Category $category): View
+    public function edit(Course $course): View
     {
-        return view("cms.category.form", [
+        return view("cms.course.form", [
             'resourceName' => $this->resourceName,
             'mode' => __FUNCTION__,
-            'category' => $category,
+            'course' => $course,
             'lists' => $this->getLists(),
             'pageMeta' => [
-                'title' => 'Edit Category',
+                'title' => 'Edit Course',
                 'method' => 'put',
-                'url' => route('secretgate19.category.update', $category->id)
+                'url' => route('admin.course.update', $course->id)
             ]
         ]);
     }
@@ -177,73 +151,30 @@ class CourseController extends CmsController
     /**
      * Update the specified resource in storage.
      */
-    public function update(CategoryRequest $request, Category $category): RedirectResponse
+    public function update(CourseRequest $request, Course $course): RedirectResponse
     {
         DB::beginTransaction();
 
         try {
             $request->validated();
-            
-            // Menggunakan boolean helper untuk konsistensi data tinyint(1)
-            $isNavbar = $request->boolean('is_navbar');
-            $parentId = $request->input('parent_id') ?: null;
 
             $dataToUpdate = [
-                'name'        => $request->input('name_en'),
-                'slug'        => $request->input('slug'),
-                'description' => $request->input('description_en'),
-                'order'       => $request->input('order'),
-                'is_active'   => $request->boolean('is_active'),
-                'is_navbar'   => $isNavbar,
-                'parent_id'   => $parentId,
+                'name' => $request->input('name'),
+                'description' => $request->input('description'),
+                'slug' => $request->input('slug'),
             ];
             
-            // Handle upload gambar
-            $this->handleImage($request, $category);
-            
-            if ($request->has('image')) { 
+            if ($request->hasFile('image')) {
+                $this->handleImage($request, $course);
                 $dataToUpdate['image'] = $request->input('image');
-            }
-
-            if ($request->has('icon_image')) { 
-                $dataToUpdate['icon_image'] = $request->input('icon_image');
-            }
+            } 
         
-            $category->update($dataToUpdate);
-
-            // Handle Translations & SEO Metadata
-            foreach (['en', 'id'] as $locale) {
-                // Update atau buat translasi Nama & Deskripsi
-                $category->translations()->updateOrCreate(
-                    ['locale' => $locale],
-                    [
-                        'name'        => $request->input("name_{$locale}"),
-                        'description' => $request->input("description_{$locale}"),
-                    ]
-                );
-
-                $metaTitle = $request->input("meta_title_{$locale}");
-                $metaDesc = $request->input("meta_description_{$locale}");
-                $metaKey = $request->input("meta_keywords_{$locale}");
-
-                if (!empty($metaTitle) || !empty($metaDesc) || !empty($metaKey)) {
-                    $category->seos()->updateOrCreate(
-                        ['locale' => $locale],
-                        [
-                            'meta_title'       => $metaTitle,
-                            'meta_description' => $metaDesc,
-                            'meta_keywords'    => $metaKey,
-                        ]
-                    );
-                } else {
-                    $category->seos()->where('locale', $locale)->delete();
-                }
-            }
+            $course->update($dataToUpdate);
 
             DB::commit();
             
-            return to_route('secretgate19.category.index')
-                ->with('success', 'Category updated successfully.');
+            return to_route('admin.category.index')
+                ->with('success', 'Course updated successfully.');
                 
         } catch(\Exception $e){
             DB::rollback();
@@ -255,11 +186,10 @@ class CourseController extends CmsController
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Category $category)
+    public function destroy(Course $course)
     {
-        $category->translations()->delete();
-        $category->deleteImage();
-        $category->delete();
+        $course->deleteImage();
+        $course->delete();
 
         return response()->json(null, 204);
     }
@@ -267,27 +197,15 @@ class CourseController extends CmsController
     /**
      * Handle image function
      */
-    protected function handleImage(Request $request, $category = null): void
+    protected function handleImage(Request $request, $course = null): void
     {
-        $fieldNameImage = 'image';
-        $fieldNameIcon = 'icon_image';
-
-        if ($request->hasFile($fieldNameImage)) {
-            if ($category) {
-                $category->deleteImage();
+        if ($request->hasFile('image')) {
+            if ($course) {
+                $course->deleteImage();
             }
 
-            $path = $request->file($fieldNameImage)->store('category', 'public');
+            $path = $request->file('image')->store('course', 'public');
             $request->merge(['image' => $path]);
-        }
-
-        if ($request->hasFile($fieldNameIcon)) {
-            if ($category) {
-                $category->deleteIconImage();
-            }
-
-            $path = $request->file($fieldNameIcon)->store('category/icons', 'public');
-            $request->merge(['icon_image' => $path]);
         }
     }
 }
