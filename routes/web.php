@@ -6,6 +6,8 @@ use App\Http\Controllers\Cms\CmsController;
 use App\Http\Controllers\Cms\AuthController;
 use App\Http\Controllers\Cms\UserController;
 use App\Http\Controllers\Cms\AdminController;
+use App\Http\Controllers\Cms\CategoryController;
+use App\Http\Controllers\Cms\CourseController;
 
 Route::prefix('admin')->name('admin.')->middleware('guest:admin')->group(function () {
     Route::get('/login', [AuthController::class, 'index'])->name('login');
@@ -25,7 +27,7 @@ Route::middleware('auth:admin')->group(function () {
 
         Route::prefix('course')->name('course.')->group(function () {
             Route::get('/datatables', [CourseController::class, 'datatables'])->name('datatables');
-            Route::resource('/', CourseController::class)->parameters(['' => 'category']);
+            Route::resource('/', CourseController::class)->parameters(['' => 'course']);
         });
 
         /**

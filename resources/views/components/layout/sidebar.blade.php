@@ -36,13 +36,23 @@ $menuSections = [
             'route' => "{$targetRoute}.dashboard",
             'always_show' => true,
         ],
-       // Course
+        // Category
+        [
+            'type' => 'single',
+            'key' => 'category',
+            'label' => 'Category',
+            'route' => "{$targetRoute}.category.index",
+            'icon' => 'fas fa-bell',
+            'always_show' => true,
+        ],
+        // Course
         [
             'type' => 'single',
             'key' => 'course',
-            'label' => 'Kursus',
+            'label' => 'Course',
             'route' => "{$targetRoute}.course.index",
             'icon' => 'fas fa-bell',
+            'always_show' => true,
         ],
 
         // Notification

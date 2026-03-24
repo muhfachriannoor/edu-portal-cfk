@@ -42,7 +42,7 @@ class CategoryController extends CmsController
     public function getLists()
     {
         return [
-            'categories' => CategoryData::lists(),
+            // 'categories' => CategoryData::lists(),
         ];
     }
 
@@ -73,7 +73,7 @@ class CategoryController extends CmsController
             'pageMeta' => [
                 'title' => 'Create Category',
                 'method' => 'post',
-                'url' => route('secretgate19.category.store')
+                'url' => route('admin.category.store')
             ]
         ]);
     }
@@ -87,48 +87,16 @@ class CategoryController extends CmsController
 
         try {
             $request->validated();
-            $this->handleImage($request);
 
-            $parentId = $request->input('parent_id') ?: null;
-            $isNavbar = $request->input('is_navbar') ?: 0;
-
-            $category = Category::create([
-                'name' => $request->input('name_en'),
+            Category::create([
+                'name' => $request->input('name'),
+                'description' => $request->input('description'),
                 'slug' => $request->input('slug'),
-                'description' => $request->input('description_en'),
-                'order' => $request->input('order'),
-                'is_active' => $request->boolean('is_active'),
-                'is_navbar' => $isNavbar,
-                'image' => $request->input('image'),
-                'icon_image' => $request->input('icon_image'),
-                'parent_id' => $parentId,
             ]);
-
-            // 3. Handle Translations & SEO Metadata
-            foreach (['en', 'id'] as $locale) {
-                $category->translations()->create([
-                    'locale' => $locale,
-                    'name' => $request->input("name_{$locale}"),
-                    'description' => $request->input("description_{$locale}"),
-                ]);
-
-                $metaTitle = $request->input("meta_title_{$locale}");
-                $metaDesc = $request->input("meta_description_{$locale}");
-                $metaKey = $request->input("meta_keywords_{$locale}");
-
-                if (!empty($metaTitle) || !empty($metaDesc) || !empty($metaKey)) {
-                    $category->seos()->create([
-                        'locale' => $locale,
-                        'meta_title' => $metaTitle,
-                        'meta_description' => $metaDesc,
-                        'meta_keywords' => $metaKey,
-                    ]);
-                }
-            }
             
             DB::commit();
 
-            return to_route('secretgate19.category.index')
+            return to_route('admin.category.index')
                 ->with('success', 'Category created successfully.');
 
         } catch(\Exception $e){
@@ -169,7 +137,7 @@ class CategoryController extends CmsController
             'pageMeta' => [
                 'title' => 'Edit Category',
                 'method' => 'put',
-                'url' => route('secretgate19.category.update', $category->id)
+                'url' => route('admin.category.update', $category->id)
             ]
         ]);
     }
@@ -183,66 +151,18 @@ class CategoryController extends CmsController
 
         try {
             $request->validated();
-            
-            // Menggunakan boolean helper untuk konsistensi data tinyint(1)
-            $isNavbar = $request->boolean('is_navbar');
-            $parentId = $request->input('parent_id') ?: null;
 
             $dataToUpdate = [
-                'name'        => $request->input('name_en'),
-                'slug'        => $request->input('slug'),
-                'description' => $request->input('description_en'),
-                'order'       => $request->input('order'),
-                'is_active'   => $request->boolean('is_active'),
-                'is_navbar'   => $isNavbar,
-                'parent_id'   => $parentId,
+                'name' => $request->input('name'),
+                'description' => $request->input('description'),
+                'slug' => $request->input('slug'),
             ];
-            
-            // Handle upload gambar
-            $this->handleImage($request, $category);
-            
-            if ($request->has('image')) { 
-                $dataToUpdate['image'] = $request->input('image');
-            }
-
-            if ($request->has('icon_image')) { 
-                $dataToUpdate['icon_image'] = $request->input('icon_image');
-            }
         
             $category->update($dataToUpdate);
 
-            // Handle Translations & SEO Metadata
-            foreach (['en', 'id'] as $locale) {
-                // Update atau buat translasi Nama & Deskripsi
-                $category->translations()->updateOrCreate(
-                    ['locale' => $locale],
-                    [
-                        'name'        => $request->input("name_{$locale}"),
-                        'description' => $request->input("description_{$locale}"),
-                    ]
-                );
-
-                $metaTitle = $request->input("meta_title_{$locale}");
-                $metaDesc = $request->input("meta_description_{$locale}");
-                $metaKey = $request->input("meta_keywords_{$locale}");
-
-                if (!empty($metaTitle) || !empty($metaDesc) || !empty($metaKey)) {
-                    $category->seos()->updateOrCreate(
-                        ['locale' => $locale],
-                        [
-                            'meta_title'       => $metaTitle,
-                            'meta_description' => $metaDesc,
-                            'meta_keywords'    => $metaKey,
-                        ]
-                    );
-                } else {
-                    $category->seos()->where('locale', $locale)->delete();
-                }
-            }
-
             DB::commit();
             
-            return to_route('secretgate19.category.index')
+            return to_route('admin.category.index')
                 ->with('success', 'Category updated successfully.');
                 
         } catch(\Exception $e){
@@ -257,37 +177,8 @@ class CategoryController extends CmsController
      */
     public function destroy(Category $category)
     {
-        $category->translations()->delete();
-        $category->deleteImage();
         $category->delete();
 
         return response()->json(null, 204);
-    }
-
-    /**
-     * Handle image function
-     */
-    protected function handleImage(Request $request, $category = null): void
-    {
-        $fieldNameImage = 'image';
-        $fieldNameIcon = 'icon_image';
-
-        if ($request->hasFile($fieldNameImage)) {
-            if ($category) {
-                $category->deleteImage();
-            }
-
-            $path = $request->file($fieldNameImage)->store('category', 'public');
-            $request->merge(['image' => $path]);
-        }
-
-        if ($request->hasFile($fieldNameIcon)) {
-            if ($category) {
-                $category->deleteIconImage();
-            }
-
-            $path = $request->file($fieldNameIcon)->store('category/icons', 'public');
-            $request->merge(['icon_image' => $path]);
-        }
     }
 }

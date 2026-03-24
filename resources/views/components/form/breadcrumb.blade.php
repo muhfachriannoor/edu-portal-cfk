@@ -23,7 +23,7 @@
     'resourceName' => null,
     'indexLink' => null,
     'action' => null,
-    'baseLink' => 'secretgate19',
+    'baseLink' => 'admin',
     'routeParam' => []
 ])
 

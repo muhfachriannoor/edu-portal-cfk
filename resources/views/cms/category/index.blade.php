@@ -11,7 +11,7 @@
             <div class="p-6">
                 <div class="flex justify-end mb-4 space-x-2">
                     @if(auth()->user()->can("{$resourceName}.create"))
-                        <a href="{{ route("secretgate19.{$resourceName}.create") }}"
+                        <a href="{{ route("admin.{$resourceName}.create") }}"
                         class="inline-flex items-center px-4 py-2 bg-green-600 text-white text-sm font-medium rounded hover:bg-green-700">
                             <i class="fas fa-plus mr-1"></i> New
                         </a>
@@ -28,9 +28,9 @@
                             <tr>
                                 <th scope="col">#</th>
                                 <th scope="col">Name</th>
-                                <th scope="col">Description</th>
-                                <th scope="col">Order</th>
-                                <th scope="col">Is Active</th>
+                                {{-- <th scope="col">Description</th> --}}
+                                {{-- <th scope="col">Order</th> --}}
+                                {{-- <th scope="col">Is Active</th> --}}
                                 <th scope="col" class="text-left">Action</th>
                             </tr>
                         </thead>
@@ -50,7 +50,7 @@
     var dataTable = $('#datatable').DataTable({
         processing: true, // Show a 'processing' indicator
         ajax: {
-            url: '{{ route("secretgate19.{$resourceName}.datatables") }}',
+            url: '{{ route("admin.{$resourceName}.datatables") }}',
             type: 'GET'
         },
         columnDefs: [
@@ -60,9 +60,7 @@
         columns: [
             {data: 'DT_RowIndex', name: 'id'},
             {data: 'name', name: 'name'},
-            {data: 'description', name: 'description'},
-            {data: 'order', name: 'order'},
-            {data: 'is_active', name: 'is_active'},
+            // {data: 'description', name: 'description'},
             {data: 'actions', searchable: false, orderable: false}
         ],
         order: [[0, 'asc']], // Default sort by 'DT_RowIndex' in ascending order

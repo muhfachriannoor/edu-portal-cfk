@@ -12,7 +12,7 @@ class CategoryFormData
         $cacheKey = "category_form_data";
 
         return Cache::remember($cacheKey, now()->addMinutes(10), function () {
-            return Category::where('is_active', 1)->orderBy('name')->pluck('name', 'id')->toArray();
+            return Category::orderBy('name')->pluck('name', 'id')->toArray();
         });
     }
 
